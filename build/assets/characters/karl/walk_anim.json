@@ -1,0 +1,28 @@
+{
+  "anims": [
+    {
+      "key": "walk",
+      "type": "frames",
+      "repeat": -1,
+      "frameRate": 12,
+      "frames": [
+        {
+          "key": "walk",
+          "frame": "butcher_walk_1"
+        },
+        {
+          "key": "walk",
+          "frame": "butcher_walk_2"
+        },
+        {
+          "key": "walk",
+          "frame": "butcher_walk_3"
+        },
+        {
+          "key": "walk",
+          "frame": "butcher_walk_4"
+        }
+      ]
+    }
+  ]
+}

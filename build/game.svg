@@ -1,0 +1,46 @@
+<svg
+  class="game-wrapper"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  pointer-events="none"
+>
+  <foreignObject x="0" y="0" width="100%" height="250">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <label for="toggle-1">Toggle</label>
+      <input class="visually-hidden" id="toggle-1" type="checkbox" />
+      <div id="game-container"></div>
+    </div>
+  </foreignObject>
+  <style>
+    .game-wrapper {
+      width: 100%;
+      height: 250px;
+      min-height: 50px;
+      max-height: 250px;
+    }
+
+    #game-container {
+      height: 250px;
+    }
+
+    #game-container::after {
+      content: "😃";
+      font-size: 100px;
+    }
+
+    label {
+      background: #A5D6A7;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+    }
+
+    .visually-hidden {
+      position: absolute;
+      left: -100vw;
+    }
+
+    input#toggle-1:checked + #game-container::after {
+      content: "😩";
+    }
+  </style>
+</svg>

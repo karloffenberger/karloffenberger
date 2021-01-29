@@ -1,0 +1,156 @@
+{
+  "inputs": {
+    "index.html.inline.0.css": {
+      "bytes": 177,
+      "imports": []
+    },
+    "_snowpack/pkg/common/phaser-36221edc.js": {
+      "bytes": 6600976,
+      "imports": []
+    },
+    "_snowpack/pkg/phaser.js": {
+      "bytes": 156,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/phaser-36221edc.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/phaser-36221edc.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/phaser-matter-collision-plugin.js": {
+      "bytes": 7914,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/phaser-36221edc.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/constants.js": {
+      "bytes": 31,
+      "imports": []
+    },
+    "dist/sprites/base.js": {
+      "bytes": 206,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/phaser.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/sprites/player.js": {
+      "bytes": 1362,
+      "imports": [
+        {
+          "path": "dist/sprites/base.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/scenes/main.js": {
+      "bytes": 562,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/phaser.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/sprites/player.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constants.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/scenes/preload.js": {
+      "bytes": 900,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/phaser.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constants.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/scenes/main.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.js": {
+      "bytes": 786,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/phaser.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/phaser-matter-collision-plugin.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/scenes/preload.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/scenes/main.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/index.html.inline.0.css": {
+      "imports": [],
+      "inputs": {
+        "index.html.inline.0.css": {
+          "bytesInOutput": 90
+        }
+      },
+      "bytes": 91
+    },
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "_snowpack/pkg/common/phaser-36221edc.js": {
+          "bytesInOutput": 1052847
+        },
+        "_snowpack/pkg/phaser.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/phaser-matter-collision-plugin.js": {
+          "bytesInOutput": 7508
+        },
+        "dist/constants.js": {
+          "bytesInOutput": 16
+        },
+        "dist/sprites/base.js": {
+          "bytesInOutput": 118
+        },
+        "dist/sprites/player.js": {
+          "bytesInOutput": 866
+        },
+        "dist/scenes/main.js": {
+          "bytesInOutput": 284
+        },
+        "dist/scenes/preload.js": {
+          "bytesInOutput": 508
+        },
+        "dist/index.js": {
+          "bytesInOutput": 311
+        }
+      },
+      "bytes": 1067192
+    }
+  }
+}

@@ -1,3 +1,7 @@
+<p>
+  <img src="https://raw.githubusercontent.com/karloffenberger/karloffenberger/master/build/game.svg" width="100%" height="250" />
+</p>
+
 ### Hi there 👋
 
 <!--

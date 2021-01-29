@@ -1,0 +1,28 @@
+{
+  "anims": [
+    {
+      "key": "idle",
+      "type": "frames",
+      "repeat": -1,
+      "frameRate": 6,
+      "frames": [
+        {
+          "key": "idle",
+          "frame": "butcher_idle_1"
+        },
+        {
+          "key": "idle",
+          "frame": "butcher_idle_2"
+        },
+        {
+          "key": "idle",
+          "frame": "butcher_idle_3"
+        },
+        {
+          "key": "idle",
+          "frame": "butcher_idle_4"
+        }
+      ]
+    }
+  ]
+}
